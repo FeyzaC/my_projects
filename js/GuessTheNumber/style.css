@@ -21,3 +21,26 @@ h2 {
   margin: 30px;
   text-align: center;
 }
+
+.myBtn {
+  margin: 30px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+img {
+  display: block;
+  width: 150px;
+  margin: auto;
+}
