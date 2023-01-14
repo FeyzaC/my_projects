@@ -5,6 +5,14 @@
 }
 
 body {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,7 +20,15 @@ body {
 }
 
 .container {
-  background-color: pink;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+
+  border-radius: 50px;
   width: 70%;
   height: 500px;
 }
@@ -43,4 +59,13 @@ img {
   display: block;
   width: 150px;
   margin: auto;
+}
+
+.bottom {
+  margin: 30px;
+  text-align: center;
+}
+
+h4 {
+  margin: 10px;
 }
