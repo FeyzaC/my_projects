@@ -1,3 +1,7 @@
-const a = Math.round(Math.random() * 100);
+// 1-100 arasinda bir sayi tuttur
 
-console.log(a);
+const randomNumber = Math.round(Math.random() * 100);
+
+console.log(randomNumber);
+
+const guessNumber = Number(document.querySelector(".input").value);
