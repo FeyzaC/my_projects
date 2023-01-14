@@ -10,9 +10,12 @@ document.querySelector(".btn").addEventListener("click", () => {
 
   if (randomNumber > guessNumber) {
     alert("Up 👍");
+    document.querySelector(".input").value = "";
   } else if (randomNumber < guessNumber) {
     alert("Down 👎");
+    document.querySelector(".input").value = "";
   } else {
     alert("Perfect 😍");
+    document.querySelector(".input").value = "";
   }
 });
